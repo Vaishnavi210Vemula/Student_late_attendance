@@ -4,13 +4,13 @@ from datetime import datetime
 from flask import Flask, render_template, request,flash
 
 app = Flask(__name__)
-app.secret_key='vaishnavi'
+app.secret_key='xxx'
 
 # Connect to the database
 db = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
-    password="sqlVaishu@210",
+    password="password",
     database="late_report"
 )
 
