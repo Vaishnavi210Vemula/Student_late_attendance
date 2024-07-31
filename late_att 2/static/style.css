@@ -1,0 +1,76 @@
+body {
+    background-image: url("/static/kmit\ college.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+}
+
+.form h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+.box {
+    padding: 12px;
+    margin: 20ox;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.flash-messages {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.flash-message-success {
+    color: green;
+}
+
+.flash-message-error {
+    color: red;
+}
